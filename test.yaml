@@ -1,0 +1,7 @@
+---
+- hosts: web
+  tasks:
+    - name: create dir
+      file:
+        name: /tmp/testdir
+        state: present
