@@ -5,4 +5,4 @@
     - name: create dir
       file:
         name: /tmp/testdir
-        state: present
+        state: directory
